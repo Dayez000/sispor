@@ -74,6 +74,12 @@ const Header = () => {
                                         <span className="badge">New</span>
                                     </Link>
                                     </li>
+                                    <li>
+                                    <Link href="/forum"className="justify-between">
+                                        Forum Diskusi
+                                        <span className="badge">New</span>
+                                    </Link>
+                                    </li>
                                     <li><a>Settings</a></li>
                                     <li><button onClick={handleLogout}>Logout</button></li>
                                 </ul>
